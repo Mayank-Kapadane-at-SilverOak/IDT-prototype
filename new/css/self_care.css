@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+.countainer{
+    display: flex;
+    flex-direction: column;
+    height : 200px;
+    border : 2px solid black;
+    padding: 40px;
+}
+
+.countainer h4{
+    font-size : 20px;
+    font-weight: 700;
+    
+}
+
+.btn{
+    background-color: orangered;
+    color: white;
+    width : 20%;
+    border-radius: 20px;
+    margin:auto;
+}
+
+
+
+.flex-countainer{
+    height : 345px;
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

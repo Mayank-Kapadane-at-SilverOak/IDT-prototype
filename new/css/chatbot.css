@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+  
+body{
+    background: url('../img/chatbot-bg.jpg') center center no-repeat ;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 101px;
+    top: 26px;
+    border-radius: 100px;
+}
+
+.back-arrow{
+    height: 42px;
+    width: 41px;
+    position: absolute;
+    top: 26px;
+    left: 24px;
+    
+}
+.navbar{
+    height : 100px;
+    border-bottom : 2px solid white;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navbar span{
+    display: flex;
+    align-items: center;
+    background-color: rgb(183, 176, 176);
+    height: 20px;
+    margin-top: 30px;
+    padding: 18px 34px;
+    border-radius: 17px;
+    font-size: 20px;
+    margin-left: 900px;
+}
+.navbar span:hover{
+    display: flex;
+    align-items: center;
+    background-color: rgb(183, 176, 176);
+    height: 20px;
+    margin-top: 30px;
+    padding: 18px 34px;
+    border-radius: 17px;
+    font-size: 20px;
+    margin-left: 900px;
+    cursor: pointer;
+}
+
+.chat{
+    width : 100%;
+    height : 521px;
+    /* border: 5px solid red; */
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.greet{
+    /* border : 2px solid white; */
+    width : 30%;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 20px ;
+    border-top-left-radius: 20px ;
+}
+.greet p{
+    font-size: 18px;
+    font-weight: 550;
+    color: rgb(94, 92, 92);
+}
+
+.search{
+    display: flex;
+    /* border : 2px solid red; */
+}
+
+.search input{
+    width: 90%;
+    padding : 15px ;
+    border-radius: 100px;
+    font-size : 20px;
+}
+
+.search pre{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    
+}
+
+.search img{
+    height: 54px;
+    width: 72px;
+}
+
